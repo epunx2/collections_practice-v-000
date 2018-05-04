@@ -70,7 +70,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  new_array
+  new_array = []
   counter = 0
   array.each do |word|
     if word[0] == "a"
