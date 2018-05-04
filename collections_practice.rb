@@ -79,3 +79,11 @@ def find_a(array)
   end
   new_array
 end
+
+def sum_array(array)
+  total_sum = 0
+  array.each do |i|
+    total_sum += i
+  end
+  total_sum
+end
