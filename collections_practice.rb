@@ -87,3 +87,13 @@ def sum_array(array)
   end
   total_sum
 end
+
+def add_s(array)
+  index = 0
+  array.each do |word|
+    if index == 2
+    else
+      word << "s"
+    end
+    array
+end
